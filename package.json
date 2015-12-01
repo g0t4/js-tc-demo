@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -c-1"
   },
   "author": "",
   "license": "ISC",
@@ -12,11 +13,14 @@
     "jspm": "^0.16.15"
   },
   "jspm": {
-    "dependencies": {},
+    "dependencies": {
+      "jquery": "github:components/jquery@^2.1.4"
+    },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.8.24",
-      "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4"
+      "typescript": "npm:typescript@^1.6.2"
     }
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5"
   }
 }
