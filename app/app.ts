@@ -1,5 +1,5 @@
 import $ from "jquery";
-import Hello from "./hello.ts";
+import Hello from "./hellos.ts";
 
 let hello = new Hello("World");
 
