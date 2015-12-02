@@ -1,5 +1,4 @@
 System.config({
-  baseURL: "/",
   defaultJSExtensions: true,
   transpiler: "typescript",
   paths: {
@@ -11,6 +10,9 @@ System.config({
     "app": {
       "main": "app.ts",
       "defaultExtension": "ts"
+    },
+    "tests": {
+      defaultExtension: "ts"
     }
   },
 
