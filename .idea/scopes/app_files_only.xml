@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="app files only" pattern="file[jspm-tc-demo]:app//*" />
+</component>
